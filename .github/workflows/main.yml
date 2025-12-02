@@ -16,7 +16,7 @@ jobs:
 
     #Setup Java 11 to be default
       - name: Set Java 11
-        uses: actions/setup-java@v5
+        uses: actions/setup-java@v3
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '11'
